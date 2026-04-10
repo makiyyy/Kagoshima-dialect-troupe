@@ -1,1 +1,1 @@
-# Kagoshima-dialect-troupe
+# Kagoshima-dialect-troupe.github.io
