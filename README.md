@@ -1,1 +1,1 @@
-# makiyyy.Kagoshima-dialect-troupe.github.io
+# makiyyy.Kagoshima-dialect-troupe
