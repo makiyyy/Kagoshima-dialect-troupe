@@ -51,6 +51,7 @@ body{
     margin-bottom: 50px;
 }
 .glass-card2{
+    display: block;
     background: #ffffff;
     border-radius: 50px;
     box-shadow: 10px;
@@ -66,7 +67,11 @@ body{
     border: 4.0px solid rgba(255, 255, 255, 1.0);
     margin-bottom: 50px;
 }
+.glass-card2:hover {
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.8);
+}
 .glass-card3{
+    display: block;
     background: #ffffff;
     border-radius: 50px;
     box-shadow: 10px;
@@ -80,6 +85,9 @@ body{
     margin-left: 300px;
     border: 4.0px solid rgba(255, 255, 255, 1.0);
     margin-bottom: 50px;
+}
+.glass-card3:hover {
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.8);
 }
 .link{
     text-align: center;
