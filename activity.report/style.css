@@ -8,3 +8,33 @@ h1{
     text-align: center;
     color: #ffffff;
 }
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.tab {
+  padding: 8px 16px;
+  cursor: pointer;
+  background: #eee;
+  border: none;
+  border-radius: 5px;
+}
+
+.tab.active {
+  background: #4287f5;
+  color: black;
+}
+
+.tab-content {
+  display: none;
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 5px;
+  color: black;
+}
+
+.tab-content.active {
+  display: block;
+}
