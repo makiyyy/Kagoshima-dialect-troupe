@@ -6,3 +6,54 @@ h1{
     text-align: center;
     color: #ffffff;
 }
+h3{
+    text-align: center;
+    font-size: 40px;
+}
+.grass-card{
+  width: 100%;
+  max-width: 400px;
+  padding: 16px 20px;
+  margin: 16px auto;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.tab {
+  padding: 8px 16px;
+  cursor: pointer;
+  background: rgba(128, 128, 128);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 42px;
+  width: 400px;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.tab.active {
+  background: #4287f5;
+  color: white;
+}
+
+.tab-content {
+  display: none;
+  padding: 15px;
+  background: rgba(255,255,255, 0.2);
+  border-radius: 5px;
+  color: white;
+}
+
+.tab-content.active {
+  display: block;
+}
