@@ -1,7 +1,4 @@
-body{
-    background: linear-gradient(135deg, #4ca1af, #3c7080);
-    color: #ffffff;
-}
+
 .center{
     text-align: center;
     color: #ffffff;
@@ -17,7 +14,8 @@ body{
     margin-bottom: 50px;   
     margin-left: 137px;
     border: 5px solid rgba(255,255,255, 1.0);
-    align-items: center;                 
+    align-items: center;     
+    color: black;            
 }
 .grass-card2{
     background: rgba(255,255,255, 0.3);
@@ -33,7 +31,7 @@ body{
     margin: 0 auto 110px 60px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    color: #ffffff;
+    color: black;
 }
 
 .grass-card3{
@@ -47,7 +45,8 @@ body{
     margin-bottom: 100px;   
     margin-left: 137px;
     border: 5px solid rgba(255,255,255, 1.0);
-    align-items: center;                
+    align-items: center;   
+    color: black;             
 }
 h1{
     text-align: center;
@@ -55,4 +54,7 @@ h1{
 p{
     margin-bottom: 55px;
     font-size: 18px;
+}
+.title{
+    border-bottom: 1px solid #ffffff;
 }
