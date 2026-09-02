@@ -15,10 +15,10 @@ h1{
 .tab {
   padding: 8px 16px;
   cursor: pointer;
-  background: rgba(128, 128, 128);
+  background: rgba(140,140,140);
   border: none;
-  border-radius: 5px;
-  color: white;
+  border-radius: 1px;
+  color: black;
   height: 42px;
   width: 400px;
   font-size: 20px;
@@ -26,8 +26,8 @@ h1{
 }
 
 .tab.active {
-  background: #4287f5;
-  color: white;
+  background: #3c5a72;
+  color: black;
 }
 
 .tab-content {
@@ -35,7 +35,7 @@ h1{
   padding: 15px;
   background: rgba(255,255,255, 0.2);
   border-radius: 5px;
-  color: white;
+  color: black;
 }
 
 .tab-content.active {

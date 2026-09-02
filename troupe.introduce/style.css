@@ -15,7 +15,8 @@
     margin-left: 137px;
     border: 5px solid rgba(255,255,255, 1.0);
     align-items: center;     
-    color: black;            
+    color: black;   
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);         
 }
 .grass-card2{
     background: rgba(255,255,255, 0.3);
@@ -36,6 +37,7 @@
 
 .grass-card3{
      background: rgba(255,255,255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     box-shadow: 100px;
     text-align: center;
