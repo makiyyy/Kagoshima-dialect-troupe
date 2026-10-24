@@ -1,0 +1,81 @@
+
+.p{
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Kosugi Maru", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+div p{
+  font-family: "Kosugi Maru", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+}
+h1{
+  text-align: center;
+  color: black;
+  font-family: "Kosugi Maru", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.tab {
+  padding: auto;
+  cursor: pointer;
+  background: rgba(140,140,140);
+  border: none;
+  border-radius: 1px;
+  color: black;
+  height: 42px;
+  width: 400px;
+  font-size: 20px;
+  border-radius: 50px;
+  font-family: "Kosugi Maru", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+}
+
+.tab.active {
+  background: linear-gradient(135deg, #3c5a72 0%, #34495E 50%, #2C3E50 100% );
+  color: white;
+  font-family: "Kosugi Maru", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+}
+
+.tab-content {
+  display: none;
+  padding: 15px;
+  background: rgba(255,255,255, 0.2);
+  border-radius: 5px;
+  color: black;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);  
+  background: rgba(255,255,255, 0.3);
+  border: 5px solid rgba(255,255,255, 1.0);
+  border-radius: 50px;
+}
+
+.tab-content.active {
+  display: block;
+}
+.container{
+  display: flex;
+  margin-bottom: 100px;
+}
+img{
+  margin-right: 50px;
+}
