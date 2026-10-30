@@ -69,6 +69,20 @@
   font-style: normal;
   font-weight: bold;
 }
+.biglogo{
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-bottom: -155px;
+  margin-left: 20px;
+  margin-top: 40px;
+   /*box-shadow:
+        0 0 20px rgba(60, 90, 114, 0.4),
+        0 0 40px rgba(52, 73, 94, 0.4),
+        0 0 60px rgba(44, 62, 80, 0.4);*/
+}
+
 .title{
     font-size: 45px;
     text-align: center;
@@ -122,7 +136,6 @@ align-items: center;
     justify-content: center;
     align-items: center;
     display: flex;
-    
 }
 .circle p{
    font-family: "Kosugi Maru", sans-serif;
@@ -153,4 +166,5 @@ align-items: center;
 }
 .flex{
   display: flex;
+  flex: 1;
 }
