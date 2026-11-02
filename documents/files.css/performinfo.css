@@ -54,3 +54,28 @@ h3{
 .tab-content.active {
   display: block;
 }
+@media screen and (max-width: 768px){
+  .grass-card{
+  width: 100%;
+  max-width: 100%;
+  padding: 16px 20px;
+  margin: 16px auto;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  border: 5px solid #34495E;
+  color: #000;
+  }
+  .tab {
+  padding: 8px 16px;
+  cursor: pointer;
+  background: rgba(140, 140, 140);
+  border: none;
+  border-radius: 5px;
+  color: black;
+  height: 42px;
+  max-width: 100%;
+  font-size: 20px;
+  padding-bottom: 40px;
+  }
+}
