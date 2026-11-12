@@ -130,12 +130,14 @@ align-items: center;
     width: 150px; 
     height: 150px;
     color: #fff;
-    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     margin-bottom: 50px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+
+  
+   
 }
 .circle p{
    font-family: "Kosugi Maru", sans-serif;
