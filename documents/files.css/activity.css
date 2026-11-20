@@ -58,7 +58,8 @@ h1{
 }
 
 .tab-content {
-  display: none;
+  display: none;  
+  justify-content: space-evenly;
   padding: 15px;
   background: rgba(255,255,255, 0.2);
   border-radius: 5px;
@@ -67,18 +68,24 @@ h1{
   background: rgba(255,255,255, 0.3);
   border: 5px solid rgba(255,255,255, 1.0);
   border-radius: 50px;
+  margin: 0 auto;
   width: 95%;
 }
 
 .tab-content.active {
   display: block;
+  justify-content: space-evenly;
 }
 .container{
   display: flex;
   margin-bottom: 100px;
+  align-items: center;
+}
+.container p{
+  margin: auto;
 }
 img{
-  margin-right: 50px;
+  margin-right: auto;
 }
 @media screen and (max-width: 768px){
   .tab-content {

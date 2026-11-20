@@ -53,9 +53,16 @@
 h1{
     text-align: center;
 }
+h2{
+    margin-left: 0px;
+}
 p{
     margin-bottom: 55px;
     font-size: 18px;
+}
+footer p{
+    margin: auto;
+    font-size: 17px;
 }
 .title{
     border-bottom: 1px solid #ffffff;
