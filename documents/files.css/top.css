@@ -1,4 +1,9 @@
-
+body{
+     background-image: url(../../pictures/2026/backimage.jpg);
+    background-position: right top;
+    background-size:100% 50%;
+    background-repeat: no-repeat;
+}
 .zen-maru-gothic-regular {
   font-family: "Zen Maru Gothic", sans-serif;
   font-weight: 400;
